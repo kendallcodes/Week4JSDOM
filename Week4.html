@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="Week4.css">
+    <title>Ramen Passport</title>
+</head>
+<body>
+
+    <video playsinline autoplay muted loop poster="ramen-shop-thumb.jpg" id="bgvid">
+        <source src="ramen-shop-desktop-wallpaperwaifu.com.mp4" type="video/mp4">
+      </video>
+   
+    
+    <div class="container-fluid">
+
+        <div class="heading">
+          <<h1> Ramen Shop Passport
+              <span>Keep track of the ramen shops you visit</span>
+            </h1>
+        </div>
+    
+
+    <div class ="card">
+        <div class="card-body"> 
+            <div class="row"> 
+                <div class="col-sm"> 
+                    <div class="form-group"> 
+                        <label for="new-start-date">Visit Date</label>
+                        <input type="date" class="form-control" id="visit-date">
+                    </div>
+                </div>
+            </div>
+
+        <div class ="row"> 
+            <div class="col-sm"> 
+                <div class="form-group"> 
+                <label for="new-task">Restaurant</label>
+                <input type="text" class="form-control" id="restaurant-name" placeholder="Enter restaurant name here...">
+                </div>
+            </div> 
+         </div>
+
+            <div class ="row"> 
+                <div class="col-sm"> 
+                 <div class="form-group"> 
+                    <label for="new-task">Type of Ramen</label>
+                    <input type="text" class="form-control" id="type-of-ramen" placeholder="Enter type/style of ramen here...">
+                </div>
+            </div> 
+         </div>
+
+         <div class ="row"> 
+            <div class="col-sm"> 
+             <div class="form-group"> 
+                <label for="new-task">City and Country</label>
+                <input type="text" class="form-control" id="city-country" placeholder="Enter city and country of restaurant here...">
+            </div>
+        </div> 
+     </div>
+
+       <div><button id="add" class="btn btn-primary form-control">Add</button>
+        </div>
+    </div> 
+
+    <table id="list" class="table table-dark table-striped"> 
+        <tr> 
+            <th>Completion</th>
+            <th>Date Visited</th>
+            <th>Restaurant</th>
+            <th>Type of Ramen</th>
+            <th>City and Country</th>
+            <th>Remove</th>
+        </tr>
+
+    </div>
+
+</div>
+<script src="Week4.js"></script>
+</body>
+</html>

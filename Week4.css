@@ -1,0 +1,37 @@
+video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  
+  
+  
+  .heading h1 { 
+    position: relative;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #da8139;
+    font-size: 6vw;
+    text-shadow:
+      0 0 7px red,
+      0 0 10px red,
+      0 0 21px red,
+      0 0 42px #CE2B24,
+      0 0 82px #CE2B24,
+      0 0 92px #CE2B24,
+      0 0 102px #CE2B24,
+      0 0 151px #CE2B24;
+  }
+  
+  span { 
+    display: block;
+    font-size: 3vw;
+  }
+  
